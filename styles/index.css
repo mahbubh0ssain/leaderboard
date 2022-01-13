@@ -11,6 +11,8 @@ header {
   background-color: #562eff;
   height: 94px;
   width: 100%;
+  position: sticky;
+  top: 0px;
 }
 .navigation {
   margin: 0px 285px;
@@ -127,7 +129,7 @@ hr {
 .box-1,
 .box-2,
 .box-3 {
-  background-color: rgb(252, 246, 238);
+  background-color: rgb(250, 247, 242);
   width: 100%;
   padding: 15px;
   margin: 10px;
@@ -180,13 +182,15 @@ h6 {
 footer {
   background-color: #562eff;
   width: 100%;
-  height: 94px;
+  height: 120px;
+  text-align: center;
 }
 
 .foot-img > img {
   width: 40px;
   height: 51px;
-  position: relative;
   margin-top: 15px;
-  left: 50%;
+}
+footer span {
+  font-weight: bolder;
 }
