@@ -194,3 +194,12 @@ footer {
 footer span {
   font-weight: bolder;
 }
+
+/* Media Query  */
+
+@media only screen and (max-width: 650px) {
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
