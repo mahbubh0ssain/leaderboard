@@ -197,7 +197,7 @@ footer span {
 
 /* Media Query  */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1000px) {
   .players {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
