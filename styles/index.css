@@ -197,9 +197,17 @@ footer span {
 
 /* Media Query  */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1080px) {
   .players {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .player {
+    display: block;
+    justify-content: center;
+  }
+  .navigation,
+  header {
+    display: none;
   }
 }
